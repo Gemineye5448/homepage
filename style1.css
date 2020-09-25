@@ -1,0 +1,66 @@
+  .ver-list {
+      margin-top: -465px;
+      position:relative;
+  }
+  .list {
+      background-color: powderblue;
+      margin-left: -15px;
+      padding-top: 0px;
+      width: 150px;
+      height: 800px;
+      position: relative;
+
+  }
+  li a {
+      text-decoration: none;
+      font-family:monospace;
+      font-size: 18px;
+  }
+  li a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 20px;
+    height:15px;
+  }
+  .link {
+    margin-top: 40px;
+    margin-left: 5px;
+    list-style-type: none;
+
+  }
+  .about {
+      margin-top: 400px;
+      margin-left: 5px;
+      list-style-type: none;
+    }
+  div {
+    margin-left: 130px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .container{
+    position: sticky;
+    left: 20px;
+    top:20px;
+  }
+  span.rect {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    padding: 15px;
+    position: relative;
+    left: 15px;
+   }
+   .fall{
+     color:brown;
+   }
+   .spring{
+     color:#FF8C00;
+   }
+   .summer{
+     color:#F5DEB3;
+   }
+   .winter{
+     color:#FF00FF;
+   }

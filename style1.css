@@ -1,16 +1,15 @@
-  .ver-list {
+.ver-list {
       margin-top: -465px;
       position:relative;
   }
   .list {
-      background-color: powderblue;
+      background-color: #00CED1;
       margin-left: -15px;
       padding-top: 0px;
       width: 150px;
       height: 800px;
       position: relative;
-
-  }
+}
   li a {
       text-decoration: none;
       font-family:monospace;
@@ -40,27 +39,38 @@
     font-size: 30px;
   }
   .container{
-    position: sticky;
-    left: 20px;
-    top:20px;
+    position: relative;
+    left: -45px;
+    top: 10px;
   }
   span.rect {
     border-color: black;
     border-style: solid;
     border-width: 3px;
-    padding: 15px;
+    padding: 18px;
     position: relative;
     left: 15px;
+    margin:0px 3px 0px 3px;
+
    }
    .fall{
      color:brown;
+     position: relative;
+     bottom: 0px;
+
    }
-   .spring{
-     color:#FF8C00;
+   .winter {
+     color:#00008B;
+     position: relative;
+     top: 0px;
+   }
+   .spring {
+     color:#008000;
+     position: relative;
+     top: 0px;
    }
    .summer{
-     color:#F5DEB3;
-   }
-   .winter{
      color:#FF00FF;
+     position: relative;
+     top: 0px;
    }

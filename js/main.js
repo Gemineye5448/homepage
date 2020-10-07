@@ -1,4 +1,5 @@
-var objPeople = [
+var objUsers = [ 
+	{
 		username: "ramsey",
 		password: "admin"
 	},
@@ -9,18 +10,18 @@ var objPeople = [
 	{
 		username: "robert",
 		password: "admin"
-	}
+	},
 
-]
+		]
 
 function getInfo() {
 	var username = document.getElementById('username').value
 	var password = document.getElementById('password').value
 
-	for(var i = 0; i < objPeople.length; i++) {
-		if(username == objPeople[i].username && password == objPeople[i].password) {
+	for(var i = 0; i < objUsers.length; i++) {
+		if(username == objUsers[i].username && password == objUsers[i].password) {
 			console.log("Log-in successful")
-			window.location.href = "index.html";
+			window.open = "index.html"
 			return
 		}
 	}
